@@ -1,0 +1,99 @@
+*{
+	padding:0px;
+	top:0;
+	margin:0;
+	left:0;
+	box-sizing:border-box;
+}
+body{
+	background-image:url(telon.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+.menu{
+	position:absolute;
+	background:none;
+	padding:10px 500px;
+}
+.menu ul{
+	list-style:none;
+	
+}	
+.menu ul li{
+	display:inline-block;
+	padding:20px;
+	background-attachment:fixed;
+
+}
+.menu ul li a{
+	color:white;
+	text-decoration:none;
+	border:white 1px solid;
+	display:block;
+	padding:10px;
+}
+.menu ul li a:hover{
+	background-color:#262626;
+}
+.cine{
+	position:absolute;
+	font-size:80px;
+	padding:100px 400px;
+	letter-spacing:0.7em;
+	color:white;
+}
+.lista{
+	position:absolute;
+	background:none;
+	padding:200px 230px;
+}
+.lista ul{
+	list-style:none;
+}
+.lista ul li{
+	display:inline-block;
+	padding:50px;
+	color:white;
+	font-size:30px;
+}
+.listauno{
+	position:absolute;
+	background:none;
+	padding:300px 150px;
+}
+.listauno ul{
+	list-style:none;
+}
+.listauno ul li{
+	display:inline-block;
+	padding:50px;
+}
+.pelis{
+	position:relative;
+	display:inline-block;
+	text-align:center;
+	padding:700px 700px;
+}
+.pelisdos{
+	position:absolute;
+	color:white;
+	font-size:30px;
+	padding:750px 780px; 
+}
+.pelistres{
+	position:absolute;
+	background:none;
+	padding:830px 800px;
+}
+.pelistres ul{
+	list-style:none;
+}
+.pelistres ul li{
+	display:inline-block;
+	color:white;
+	text-decoration:none;
+	border:white 2px solid;
+	padding:10px;
+}
